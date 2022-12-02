@@ -4,7 +4,7 @@ git config --global alias.create-local-copy clone
 git config --global alias.create-branch branch
 git config --global alias.switch-branch checkout
 git config --global alias.save-changes "commit -m"
-git config --global alias.sync-with-remote "!git push && !git pull"
+git config --global alias.sync-with-remote "!git push && git pull"
 git config --global alias.merge-branches merge
 git config --global alias.resolve-merge-conflicts "!git merge --abort && !git merge --continue"
 
